@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.headline {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+/* navbar */
+#navbar {
+    width: 100%;
+    background: #252323;
+    color: #fefefe;
+    height: 60px;
+    position: fixed;
+}
+
+#navbar-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+
+#navbar-items {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 13px;
+
+}
+
+#navbar-items li {
+    padding: 7px;
+}
+
+/*showcase*/
+
+#showcase {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #6a27ad;
+}
+
+#showcase-container {
+    text-align: left;
+
+}
+
+#showcase-container h2 {
+    font-size: 2.5rem;
+}
+
+#showcase-container p {
+    font-size: 1.2rem;
+    padding: 7px;
+}
+
+/*Romance*/
+
+#Romance {
+    width: 100%;
+    background-color: #fefefe;
+    color: #252323;
+    padding: 3px;
+}
+
+#Romance-container {
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    padding: 3px;
+}
+
+.Romance {
+    display: inline-block;
+    width: 25%;
+}
+
+
+/*Aventura*/
+
+#Aventura {
+    width: 100%;
+    background-color: #fefefe;
+    color: #252323;
+    padding: 3px;
+
+}
+
+#Aventura-container {
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    padding: 3px;
+}
+
+.Aventura {
+    display: inline-block;
+    width: 25%;
+}
+
+/*Fantasia*/
+
+#Fantasia {
+    width: 100%;
+    background-color: #fefefe;
+    color: #252323;
+    padding: 3px;
+
+}
+
+#Fantasia-container {
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    padding: 3px;
+}
+
+.Fantasia {
+    display: inline-block;
+    width: 25%;
+}
+
+/*Literatura*/
+
+#Literatura {
+    width: 100%;
+    background-color: #fefefe;
+    color: #252323;
+    padding: 3px;
+
+}
+
+#Literatura-container {
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    padding: 3px;
+}
+
+.Literatura {
+    display: inline-block;
+    width: 25%;
+}
+
+/*Footer*/
+
+#Footer {
+    background-color: #252323;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
