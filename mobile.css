@@ -1,0 +1,76 @@
+#navbar {
+    height: 200px;
+}
+
+#navbar-container {
+    flex-direction: column;
+    padding: 3px 0;
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#navbar-items li:nth-child(2) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+/*showcase*/
+#showcase-container {
+    padding: 10px;
+}
+
+/*Romance*/
+#Romance-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.Romance {
+    width: 50%;
+}
+
+/*Aventura*/
+#Aventura-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.Aventura {
+    width: 50%;
+}
+
+/*Fantasia*/
+#Fantasia-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.Fantasia {
+    width: 50%;
+}
+
+/*Literatura*/
+#Literatura-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.Literatura {
+    width: 50%;
+}
